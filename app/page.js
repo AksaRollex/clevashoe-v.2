@@ -58,7 +58,7 @@ export default function Home() {
 
         <div className={`max-w-8xl mx-auto flex flex-col items-center gap-10 text-center transition-all duration-1000 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
           <h1 className={`text-5xl md:text-8xl font-extrabold text-green-900 mb-4 fancy-shadow transition-all duration-800 hover:scale-105 ${isVisible ? 'scale-up' : ''}`}>
-            Siapa itu CLEVASHOE?
+            Siapa sih CLEVASHOE?
           </h1>
           
           <p className={`text-sm text-justify text-gray-700 max-w-2xl mx-auto transition-all duration-600 ${isVisible ? 'slide-in-left' : 'opacity-0 -translate-x-10'}`} style={{ animationDelay: '0.4s' }}>

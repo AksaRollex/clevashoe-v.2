@@ -20,25 +20,30 @@ export default function CatalogSection() {
               price: "20K",
             },
             {
+              title: "Quick clean white shoes",
+              desc: "Midsole, Outsole, Upper Sepatu putih",
+              price: "25K",
+            },
+            {
+              title: "Quick clean express",
+              desc: "Layanan tambahan dengan pengerjaan 1 hari",
+              price: "+10K",
+            },
+            {
               title: "Deep clean",
               desc: "Midsole, Outsole, Upper, Insole",
               price: "25K",
             },
             {
-              title: "Quick clean white shoes",
-              desc: "Midsole, Outsole, Upper",
-              price: "25K",
-            },
-            {
               title: "Deep clean white shoes",
-              desc: "Midsole, Outsole, Upper, Insole",
+              desc: "Midsole, Outsole, Upper, Insole, Sepatu putih",
               price: "30K",
             },
           ].map((item, index) => (
             <div
               key={index}
               className={`flex justify-between items-center ${
-                index !== 3 ? "border-b border-green-500 pb-4" : ""
+                index !== 4 ? "border-b border-green-500 pb-4" : ""
               }`}
             >
               <div>
