@@ -26,7 +26,7 @@ const ContactSection = () => {
           </div>
 
           {/* Phone */}
-          <div className="rounded-2xl p-8 text-center shadow-md bg-white">
+          {/* <div className="rounded-2xl p-8 text-center shadow-md bg-white">
             <div className="w-16 h-16 bg-green-600 rounded-full mx-auto mb-4 flex items-center justify-center">
               <Phone className="w-8 h-8 text-white" />
             </div>
@@ -34,7 +34,7 @@ const ContactSection = () => {
             <a href="tel:+628810236580836" className="text-lg font-medium text-green-700 hover:underline">
               +62 881-02365-80836
             </a>
-          </div>
+          </div> */}
 
           {/* Instagram */}
           <div className="rounded-2xl p-8 text-center shadow-md bg-white">
