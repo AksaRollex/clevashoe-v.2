@@ -15,29 +15,34 @@ export default function CatalogSection() {
         <div className="space-y-8 text-left shadow-lg bg-green-600 rounded-xl p-10">
           {[
             {
-              title: "Quick clean",
+              title: "Fast clean",
               desc: "Midsole, Outsole, Upper",
               price: "20K",
             },
             {
-              title: "Quick clean white shoes",
+              title: "Fast clean white shoes",
               desc: "Midsole, Outsole, Upper Sepatu putih",
               price: "25K",
             },
             {
-              title: "Quick clean express",
-              desc: "Layanan tambahan dengan pengerjaan 1 hari",
-              price: "+10K",
-            },
-            {
               title: "Deep clean",
-              desc: "Midsole, Outsole, Upper, Insole",
+              desc: "All part of shoes",
               price: "25K",
             },
             {
               title: "Deep clean white shoes",
-              desc: "Midsole, Outsole, Upper, Insole, Sepatu putih",
+              desc: "All part of shoes",
               price: "30K",
+            },
+            {
+              title: "One day service",
+              desc: "All part of shoes",
+              price: "30K",
+            },
+            {
+              title: "Cleaning + Unyellowing",
+              desc: "All part of shoes",
+              price: "50K",
             },
           ].map((item, index) => (
             <div
